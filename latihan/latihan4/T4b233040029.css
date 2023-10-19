@@ -104,8 +104,26 @@ body{
     padding: 20px;
 }
 
+.content .coding {
+    height: 400px;
+    background-image: url(img/PHP.png);
+    background-size: cover;
+    background-position: 0;
+}
+
+.content .hasil {
+    height: 400px;
+    background-image: url(img/hasil-php.jpeg);
+    background-size: cover;
+    background-position: 0;
+}
+
 .content h2 {
     font-size: 28px;
+    font-weight: bold;
+}
+
+.content h3 {
     font-weight: bold;
 }
 
