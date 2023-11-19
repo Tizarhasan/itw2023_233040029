@@ -118,9 +118,42 @@ h1 {
 	animation: slideDownFade .5s .5s forwards;
 }
 
+.overlay:target .next {
+	animation: fade .5 .5 forwards;
+}
+
+/* navigasi */
+.next, .prev {
+	width: 90px;
+	height: 90px;
+	background-image: url(../img/next.png);
+	position: absolute;
+	text-indent: -999999px;
+	top: 40%;
+	margin-left: 50px;
+	
+}
+
+.prev {
+	background-image: url(../img/prev.png);
+	 margin-left: -130px;
+}
+
 
 
 /* animasi */
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+
+}
+
 @keyframes zoomDanFade {
 	0% {
 		transform: scale(0);
